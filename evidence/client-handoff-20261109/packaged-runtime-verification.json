@@ -1,0 +1,44 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "tool_version": "0.2.0",
+  "installed_wheel_import": true,
+  "credentials_present": false,
+  "network_blocked": true,
+  "audio_bytes": 1904878,
+  "same_audio_as_314": true,
+  "export_cues": 100,
+  "export_removed_fillers": 0,
+  "rendered": {
+    "width": 1920,
+    "height": 1080,
+    "encoding": {
+      "codec": "libx264",
+      "mode": "source-bitrate",
+      "target_video_bit_rate": 10684382,
+      "passes": 2,
+      "crf": null,
+      "qp": null,
+      "lossless": false,
+      "preset": "medium",
+      "audio": "copy"
+    }
+  },
+  "font_family_installed": false,
+  "font_log": [
+    "Loading font file 'fonts\\0.otf'",
+    "Loading font file 'fonts\\0.otf'",
+    "fontselect: (Noto Sans CJK SC, 700, 0) -> NotoSansCJKsc-Regular, 0, NotoSansCJKsc-Regular"
+  ],
+  "unicode_space_paths": true,
+  "explicit_ffmpeg_path": true,
+  "utf8_cli_json": true,
+  "cli": {
+    "--help": true,
+    "--examples": true,
+    "prepare --help": true,
+    "export --help": true,
+    "render --help": true
+  },
+  "ffmpeg_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3",
+  "font_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+}

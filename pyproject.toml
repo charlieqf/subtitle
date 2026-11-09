@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-subtitle-tool"
+version = "0.2.0"
+description = "Chinese medical interview transcription and independent SRT rendering prototype"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31", "av>=14", "imageio-ffmpeg>=0.6", "tencentcloud-sdk-python-asr>=3.1.200", "filelock>=3.16"]
+
+[project.scripts]
+subtitle = "subtitle_tool.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["subtitle_tool*"]
+
+[tool.setuptools.package-data]
+subtitle_tool = ["data/*.json"]

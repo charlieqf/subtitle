@@ -1,0 +1,22 @@
+.private/
+inputs/
+outputs/
+tmp/
+*.log
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+*.mp4
+*.mp3
+*.flac
+*.wav
+.env
+.env.*
+# Private sample material and historical account/provider evidence remain local.
+/中医药采访-徐从剑.txt
+/医学采访视频实测报告.md
+/视频文件语音识别和字幕生成技术方案调研文档.md
+/evidence/video-test-*/
+/evidence/client-handoff-20261109/asr-mp3-verification.json

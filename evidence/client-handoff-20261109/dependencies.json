@@ -1,0 +1,62 @@
+[
+  {
+    "name": "av",
+    "version": "19.0.2",
+    "wheel": "av-19.0.2-cp312-abi3-win_amd64.whl",
+    "sha256": "3ce5a1d7b916d13c16ac58f1756f0fee4af2d53f02bc1403e18550b50d375a22"
+  },
+  {
+    "name": "certifi",
+    "version": "2026.10.23",
+    "wheel": "certifi-2026.10.23-py3-none-any.whl",
+    "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "wheel": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+    "sha256": "780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc"
+  },
+  {
+    "name": "filelock",
+    "version": "3.25.0",
+    "wheel": "filelock-3.25.0-py3-none-any.whl",
+    "sha256": "5ccf8069f7948f494968fc0713c10e5c182a9c9d9eef3a636307a20c2490f047"
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "wheel": "idna-3.20-py3-none-any.whl",
+    "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+  },
+  {
+    "name": "imageio-ffmpeg",
+    "version": "0.6.0",
+    "wheel": "imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl",
+    "sha256": "02fa47c83703c37df6bfe4896aab339013f62bf02c5ebf2dce6da56af04ffc0a"
+  },
+  {
+    "name": "requests",
+    "version": "2.32.5",
+    "wheel": "requests-2.32.5-py3-none-any.whl",
+    "sha256": "2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6"
+  },
+  {
+    "name": "tencentcloud-sdk-python-asr",
+    "version": "3.1.200",
+    "wheel": "tencentcloud_sdk_python_asr-3.1.200-py2.py3-none-any.whl",
+    "sha256": "e023e4b71ac71f4c1baac4d15c135ed8f753e45b8bf7d00e5239b978cd3c7fdc"
+  },
+  {
+    "name": "tencentcloud-sdk-python-common",
+    "version": "3.1.205",
+    "wheel": "tencentcloud_sdk_python_common-3.1.205-py2.py3-none-any.whl",
+    "sha256": "787865f9506e63ffc87b67b0ab010eed661cab85ed2c75a549759be3fcc2d580"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "wheel": "urllib3-2.8.0-py3-none-any.whl",
+    "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "quality": {
+    "flac": {
+      "terminology_correct": 21,
+      "terminology_total": 21,
+      "reference_edit_distance": 120,
+      "reference_characters": 1120,
+      "counts": {
+        "equal": 1096,
+        "substitute": 23,
+        "delete": 1,
+        "insert": 96
+      }
+    },
+    "mp3_64k": {
+      "terminology_correct": 21,
+      "terminology_total": 21,
+      "reference_edit_distance": 124,
+      "reference_characters": 1120,
+      "counts": {
+        "equal": 1094,
+        "substitute": 25,
+        "delete": 1,
+        "insert": 98
+      }
+    }
+  },
+  "short_mp3_vs_flac_timestamps": {
+    "matched_words": 630,
+    "median_signed_ms": 0.0,
+    "p95_absolute_ms": 0,
+    "maximum_absolute_ms": 100
+  },
+  "long_first_cycle_vs_short": {
+    "matched_words": 632,
+    "median_signed_ms": 0.0,
+    "p95_absolute_ms": 0,
+    "maximum_absolute_ms": 50
+  },
+  "imports": {
+    "interview": {
+      "cues": 100,
+      "removed_fillers": 0,
+      "first_word_ms": 0,
+      "last_word_ms": 237630,
+      "applied_offset_ms": 0
+    },
+    "long": {
+      "cues": 248,
+      "removed_fillers": 0,
+      "first_word_ms": 0,
+      "last_word_ms": 598875,
+      "applied_offset_ms": 0
+    }
+  },
+  "audio_preparation": {
+    "interview": {
+      "bytes": 1904878,
+      "duration_ms": 237934.875,
+      "sha256": "3304eb0589be8c6dca83ef168f876892a6571a7f3eca29dce04320c26ceedf14",
+      "first_decoded_pts_ms": 69.0625
+    },
+    "long": {
+      "bytes": 4793331,
+      "duration_ms": 599006.9375,
+      "sha256": "b158324789f320d0ca879179c909c82aa2096e1b64f2ca937480e8b9f00c0bf4",
+      "first_decoded_pts_ms": 69.0625
+    }
+  },
+  "waveform_interview": {
+    "source_decoded_samples": 3806958,
+    "mp3_decoded_samples": 3806958,
+    "samples": [
+      {
+        "at_seconds": 10,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9994121789932251
+      },
+      {
+        "at_seconds": 120,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9997910857200623
+      },
+      {
+        "at_seconds": 220,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9993436932563782
+      }
+    ]
+  },
+  "waveform_long": {
+    "source_decoded_samples": 9584083,
+    "mp3_decoded_samples": 9584111,
+    "samples": [
+      {
+        "at_seconds": 10,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9994121789932251
+      },
+      {
+        "at_seconds": 300,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9997241497039795
+      },
+      {
+        "at_seconds": 580,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9996669292449951
+      }
+    ]
+  },
+  "jobs": {
+    "interview": {
+      "task_id": 17468779697,
+      "status": "SUCCEEDED",
+      "input_bytes": 1904878,
+      "elapsed_seconds": 12.725
+    },
+    "long": {
+      "task_id": 17468780418,
+      "status": "SUCCEEDED",
+      "input_bytes": 4793331,
+      "elapsed_seconds": 25.555
+    }
+  },
+  "limitations": [
+    "Long fixture repeats the original interview; it is a duration/transport test, not independent content.",
+    "Timestamp comparisons measure stability relative to existing ASR, not accuracy against human word labels.",
+    "MP3 PTS includes gapless skip metadata; do not add first_decoded_pts_ms to video offset."
+  ]
+}
